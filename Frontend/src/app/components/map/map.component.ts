@@ -29,8 +29,6 @@ export class MapComponent implements OnInit {
   }
 
   onMarkerSelected(event):void {
-    console.log("opens chat with");
-    console.log(event.label);
     this.openDialog();
   }
 

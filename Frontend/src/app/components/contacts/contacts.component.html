@@ -1,0 +1,12 @@
+<div class="contacts-container">
+    <p>Contacts list</p>
+    <span
+        [class.selected]='docId === currentDoc'
+        (click)='loadDoc(docId)'
+        *ngFor='let docId of documents | async'
+    >
+        {{ docId }}
+  </span>
+    <button (click)='newDoc()'>nuevo chat</button>
+</div>
+
