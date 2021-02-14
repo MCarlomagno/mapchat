@@ -1,0 +1,16 @@
+// To mainatin the component
+// fixed over the map.
+:host {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    bottom: 30px;
+    right: auto;
+}
+
+.contacts-container {
+    padding: 10px;
+    height: 100%;
+    width: 300px;
+    background: white;
+}
